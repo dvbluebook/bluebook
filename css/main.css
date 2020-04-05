@@ -1,0 +1,73 @@
+    body {
+     font-family: verdana;
+     margin: 0; }
+    
+    .header {
+     padding: 2px;
+     text-align: center;
+     background: #022a6b;
+     color: #c7ddff;
+     font-family: verdana; }
+    
+    .header h1 {
+     font-size: 50px; 
+     color: #c7ddff;
+     font-family: verdana; }
+    
+    * {
+     box-sizing: border-box; }
+   
+    .row {
+     display: flex;
+     flex-wrap: wrap; }
+    
+    .sidenav {
+     flex: 30%;
+     background-color: #ededed; }
+     
+    .sidenav a {
+     float: up;
+     display: block;
+     color: #404040;
+     font-size: 15px;
+     text-align: left;
+     padding: 8px 10px;
+     text-decoration: none; }
+     
+    .sidenav a:hover {
+     background-color: #d1d1d1;
+     color: #022a6b; }
+     
+    .card1 {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     padding: 10px 0;
+     text-align: left;
+     background-color: #ffffff; }
+    
+    .main {
+     flex: 70%;
+     background-color: #d1d1d1;
+     padding: 20px; }
+     
+    .main h2 {
+     text-align: center; }
+     
+    .card2 {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+     padding: 16px;
+     text-align: left;
+     background-color: #ffffff;
+     color: #404040;
+     font-size: 15px; 
+     <!--border-radius: 10px; -->}
+     
+    @media screen and (max-width: 700px) {
+     .row {
+      flex-direction: column; }
+     }
+     
+    .footer {
+     padding: 10px;
+     text-align: center;
+     background: #022a6b;
+     color: #c7ddff; }
