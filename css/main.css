@@ -3,13 +3,14 @@
      margin: 0; }
     
     .header {
+        padding: 2px;
      text-align: center;
      background: #022a6b;
      color: #c7ddff;
      font-family: verdana; }
     
     .header h1 {
-     font-size: 50px; 
+     font-size: 30px; 
      color: #c7ddff;
      font-family: verdana; }
     
